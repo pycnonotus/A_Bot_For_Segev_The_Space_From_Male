@@ -6,7 +6,7 @@ client.on('message', (msger) => {
         msger.content.toLowerCase().includes('segev') &&
         !msger.content.toLowerCase().includes('space')
     ) {
-        msger.reply('Did you know that Segev is a male from space.');
+        msger.reply('Did you know that Segev is a male from space');
     }
 });
 
